@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+div .container{
+   border-radius: 10px;box-shadow: 4px 4px 5px rgb(20, 3, 255);
+    border: 4px solid rgb(0, 0, 0);height:auto; width: 400px;padding: 20px;background: linear-gradient(to bottom left,rgba(245, 102, 126, 0.918),rgb(255, 255, 35));
+}
+input{
+    outline: none; border: none;padding: 10px;background-color: rgb(233, 228, 221);width: 80%;
+}
+.edit{
+    margin-left: 20px;font-size: 30px;position: relative;top: 10px;
+}
+.icons{
+    border: 2px solid rgb(11, 37, 110); padding: 20px;text-align: center;margin-top: 10px;
+}
+.edit:hover,.delete:hover{
+    box-shadow: 4px 4px 10px yellow;background-color: rgb(255, 13, 13);
+}
+.edit:hover{padding: 2px;}
+input:focus{
+    box-shadow: 4px 4px 10px yellow;
+}
