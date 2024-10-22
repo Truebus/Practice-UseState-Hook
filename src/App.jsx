@@ -1,12 +1,10 @@
 import './App.css'
-import { Toggle } from './Toggle'
-import { Counter } from './Usestate/Counter'
-import { ThemeToggler } from './Usestate/Theme'
+import { Shopping } from './Usestate/Shopping'
 
 
 function App() {
  return (
-  <Toggle/>
+  <Shopping/>
   )
 }
 
