@@ -1,11 +1,11 @@
 import './App.css'
-import { Pick } from './Usestate/Picker'
-import { Shopping } from './Usestate/Shopping'
+import { Form1 } from './Usestate/Form1'
+import { Temperature } from './Usestate/Temparature'
 
 
 function App() {
  return (
-  <Pick/>
+  <Temperature/>
   )
 }
 
