@@ -1,11 +1,11 @@
 import './App.css'
-import { Form1 } from './Usestate/Form1'
-import { Temperature } from './Usestate/Temparature'
+import { CheckBox } from './Usestate/CheckBox'
+import { DynamicList } from './Usestate/DynamicList'
 
 
 function App() {
  return (
-  <Temperature/>
+  <CheckBox/>
   )
 }
 
